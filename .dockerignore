@@ -1,0 +1,41 @@
+# Compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Installed package directories
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Virtual environment directories
+venv/
+.env
+
+# Configuration files and secret files
+*.ini
+*.env
+.secret
+
+# Development tools
+*.log
+*.csv
+*.json
+.idea/
+.vscode/
+*.swp
+
+# Test directories and files
+tests/
+*.test
+*.spec
+
+# Documentation and READMEs
+README.md
+docs/
+*.md
+
+# Git and version control
+.git/
+.gitignore
