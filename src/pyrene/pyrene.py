@@ -39,6 +39,10 @@ class Pyrene:
             The date used for collect data from avalanche bulletins.
         """
         logger.info(f"Collecting data for bulletin: {bulletin!r}")
+        if bulletin == "aran":
+            from bulletins import aran
+
+            aran.AranBulletin(collection_date=collection_date).run()
 
     def run(self, collection_date: datetime) -> None:
         """

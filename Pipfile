@@ -7,12 +7,13 @@ name = "pypi"
 python_version = "3.12"
 
 [packages]
-psycopg2-binary = "==2.9.9"
+psycopg2-binary = "~=2.9.0"
+requests = "~=2.31.0"
 
 [dev-packages]
-pytest = "==8.0.2"
-ruff = "==0.2.2"
+pytest = "~=8.0.0"
+ruff = "~=0.2.0"
 
 [scripts]
-pyrene = "python3 src/main.py"
+pyrene = "python src/main.py"
 test = "pytest"
