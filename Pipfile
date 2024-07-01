@@ -10,8 +10,8 @@ python_version = "3.12"
 psycopg2-binary = "==2.9.9"
 
 [dev-packages]
-pytest = "==8.2.0"
-ruff = "==0.4.2"
+pytest = "==8.2.2"
+ruff = "==0.5.0"
 
 [scripts]
 pyrene = "python3 src/main.py"
